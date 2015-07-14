@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>LinqCompileToInstanceMethod</id>
+        <version>1.0.0</version>
+        <authors>Jeremy Beavon</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Provides an extension method to LINQ to compile an expression to an instance method. If the method has parameters, the first parameter of the expression must be represent "this".</description>
+        <dependencies>
+            <dependency id="ILReader" version="1.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="LinqCompileToInstanceMethod\bin\Release\LinqCompileToInstanceMethod.dll" target="lib\net45\LinqCompileToInstanceMethod.dll" />
+    </files>
+</package>
